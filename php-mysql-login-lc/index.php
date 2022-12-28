@@ -8,7 +8,7 @@ if (session_status() === PHP_SESSION_NONE) {
 include './server.php';
 
 // dati per la connessione al db
-define("DB_SERVERNAME", "localhost:8889");
+define("DB_SERVERNAME", "localhost:3306");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", "root");
 define("DB_NAME", "db_lc_university");
